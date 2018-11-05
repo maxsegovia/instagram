@@ -13,8 +13,10 @@ const Card = (props) => {
 
 const styles = {
   containerStyle: {
+      flex: 1,
     borderRadius: 10,
     alignItems: 'flex-start',
+    alignSelf: 'stretch',
     justifyContent: 'center',
     marginLeft: 5,
     marginRight: 5,

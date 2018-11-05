@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <View>
-        <StatusBar backgroundColor='#fff' barStyle='light-content' />
+        <StatusBar backgroundColor='#fff' barStyle='dark-content' />
         <View style={viewStyle}>
           <Text style={logo}>Instagram</Text>
         </View>
@@ -22,8 +22,6 @@ const styles = {
         height: 100,
         paddingTop: 30,
         position: 'relative',
-        shadowRadius: 5,
-        shadowOpacity: 1,
     },
     logo: {
       fontFamily: "Billabong",

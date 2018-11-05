@@ -70,7 +70,6 @@ class Login extends Component {
     }
 
     writeUserToDatabase() {
-        console.log('hola');
         firebase.database().ref(`users/${firebase.auth().currentUser.uid}`).set({
             email: this.state.email,
             firstname: this.state.name,
@@ -132,11 +131,11 @@ class Login extends Component {
                         <View style={container}>
                             <Text style={title}>INICIAR SESIÓN</Text>
                             <View style={inputStyle}>
-                                <Input value={this.state.username} placeholder="Usuario" autoCorrect={false} autoCapitalize={false} color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
+                                <Input value={this.state.username} placeholder="Usuario" autoCorrect={false} autoCapitalize='none' color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
                                 onChangeText={this.onUsernameChange.bind(this)} />
                             </View>
                             <View style={inputStyle}>
-                                <Input value={this.state.password} placeholder="Contraseña" autoCorrect={false} autoCapitalize={false} isPassword={true} color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
+                                <Input value={this.state.password} placeholder="Contraseña" autoCorrect={false} autoCapitalize='none' isPassword={true} color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
                                 onChangeText={this.onPasswordChange.bind(this)} />
                             </View>
                             {this.renderError()}
@@ -154,23 +153,23 @@ class Login extends Component {
                         <View style={container}>
                             <Text style={title}>REGISTRO</Text>
                             <View style={inputStyle}>
-                                <Input value={this.state.name} placeholder="Nombre" autoCorrect={false} autoCapitalize={false} color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
+                                <Input value={this.state.name} placeholder="Nombre" autoCorrect={false} autoCapitalize='none' color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
                                 onChangeText={this.onNameChange.bind(this)} />
                             </View>
                             <View style={inputStyle}>
-                                <Input value={this.state.lastname} placeholder="Apellido" autoCorrect={false} autoCapitalize={false} color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
+                                <Input value={this.state.lastname} placeholder="Apellido" autoCorrect={false} autoCapitalize='none' color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
                                 onChangeText={this.onLastNameChange.bind(this)} />
                             </View>
                             <View style={inputStyle}>
-                                <Input value={this.state.username} placeholder="Usuario" autoCorrect={false} autoCapitalize={false} color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
+                                <Input value={this.state.username} placeholder="Usuario" autoCorrect={false} autoCapitalize='none' color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
                                 onChangeText={this.onUsernameChange.bind(this)} />
                             </View>
                             <View style={inputStyle}>
-                                <Input value={this.state.email} placeholder="Correo Electrónico" autoCorrect={false} autoCapitalize={false} color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
+                                <Input value={this.state.email} placeholder="Correo Electrónico" autoCorrect={false} autoCapitalize='none' color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
                                 onChangeText={this.onEmailChange.bind(this)} />
                             </View>
                             <View style={inputStyle}>
-                                <Input value={this.state.password} placeholder="Contraseña" autoCorrect={false} autoCapitalize={false} isPassword={true} color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
+                                <Input value={this.state.password} placeholder="Contraseña" autoCorrect={false} autoCapitalize='none' isPassword={true} color='white' placeholderTextColor={'rgba(255,255,255,0.5)'}
                                 onChangeText={this.onPasswordChange.bind(this)} />
                             </View>
                             {this.renderError()}

@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -35,16 +36,30 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* instagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* instagramTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		360BBEFE21899F7B00A54127 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360BBED821899F7B00A54127 /* GoogleUtilities.framework */; };
+		360BBEFF21899F7B00A54127 /* FaceDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360BBEDD21899F7B00A54127 /* FaceDetector.framework */; };
+		360BBF0021899F7B00A54127 /* BCLrighteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 360BBEDF21899F7B00A54127 /* BCLrighteyeclosed_200.emd */; };
+		360BBF0121899F7B00A54127 /* BCLjoy_100.emd in Resources */ = {isa = PBXBuildFile; fileRef = 360BBEE021899F7B00A54127 /* BCLjoy_100.emd */; };
+		360BBF0221899F7B00A54127 /* PFFprec_702.emd in Resources */ = {isa = PBXBuildFile; fileRef = 360BBEE121899F7B00A54127 /* PFFprec_702.emd */; };
+		360BBF0321899F7B00A54127 /* MFTprec_202.emd in Resources */ = {isa = PBXBuildFile; fileRef = 360BBEE221899F7B00A54127 /* MFTprec_202.emd */; };
+		360BBF0421899F7B00A54127 /* LMprec_600.emd in Resources */ = {isa = PBXBuildFile; fileRef = 360BBEE321899F7B00A54127 /* LMprec_600.emd */; };
+		360BBF0521899F7B00A54127 /* BCLlefteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 360BBEE421899F7B00A54127 /* BCLlefteyeclosed_200.emd */; };
+		360BBF0721899F7B00A54127 /* GoogleMVDataOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360BBEE921899F7B00A54127 /* GoogleMVDataOutput.framework */; };
+		360BBF0921899F7B00A54127 /* GoogleMobileVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360BBEEE21899F7B00A54127 /* GoogleMobileVision.framework */; };
+		360BBF0B21899F7B00A54127 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360BBEF321899F7B00A54127 /* GoogleNetworkingUtilities.framework */; };
+		360BBF0D21899F7B00A54127 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360BBEF721899F7B00A54127 /* GoogleSymbolUtilities.framework */; };
+		360BBF0F21899F7B00A54127 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360BBEFC21899F7B00A54127 /* GoogleInterchangeUtilities.framework */; };
+		360BBF1121899FB500A54127 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360BBF1021899FB500A54127 /* AddressBook.framework */; };
+		362B162B2189B2DC000E9937 /* libRCTCameraRoll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 362B162A2189B2BF000E9937 /* libRCTCameraRoll.a */; };
+		5DCD3D663902408390D8B76A /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BF3CCDC05E47B59FAC7CE3 /* libRNCamera.a */; };
+		76D65C4A648349A382602BBC /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B896034BF774C8C9707E9EA /* Montserrat-SemiBold.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		EF0E346E2F12412783D4CAD5 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2AAA4DE15134ADA85621BC4 /* Billabong.ttf */; };
-		4DBFF41A8EE142869E85EC2C /* light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F698B3E5527A440CB3CC375F /* light.ttf */; };
-		B7A132FF062149B9BFA08878 /* regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDE521801BC644AC8A80158F /* regular.ttf */; };
-		598D2C68394D4589B77634D0 /* semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A017B4FDBEB4F83AAB7814A /* semibold.ttf */; };
-		D0E74CF099744A2585B7235A /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A04F82B5569347F9987C3940 /* libBVLinearGradient.a */; };
-		F003D726CFA64D6D86937C72 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802596E19A8E431A83428F7A /* Montserrat-Light.ttf */; };
 		BD6492CE00594CE38D4AF1A8 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0A6C61CE88540F88B8B1C1D /* Montserrat-Regular.ttf */; };
-		76D65C4A648349A382602BBC /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B896034BF774C8C9707E9EA /* Montserrat-SemiBold.ttf */; };
+		D0E74CF099744A2585B7235A /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A04F82B5569347F9987C3940 /* libBVLinearGradient.a */; };
+		EF0E346E2F12412783D4CAD5 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2AAA4DE15134ADA85621BC4 /* Billabong.ttf */; };
+		F003D726CFA64D6D86937C72 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802596E19A8E431A83428F7A /* Montserrat-Light.ttf */; };
+		F413E845216D4946B347F12B /* libRNFetchBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0536D1C408994DD092A7E287 /* libRNFetchBlob.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,6 +210,41 @@
 			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
 			remoteInfo = "privatedata-tvOS";
 		};
+		360BBECB21899DFF00A54127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DF013C15A03487EB0ABE73B /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = BVLinearGradient;
+		};
+		360BBECD21899DFF00A54127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DF013C15A03487EB0ABE73B /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64AA15081EF7F30100718508;
+			remoteInfo = "BVLinearGradient-tvOS";
+		};
+		360BBED021899DFF00A54127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96D4C3885F2E46F5A086A003 /* RNCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RNCamera;
+		};
+		362B16292189B2BF000E9937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362B16252189B2BF000E9937 /* RCTCameraRoll.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTCameraRoll;
+		};
+		363A115A21902E06005A34A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48B3931EA394E459D5CAFF7 /* RNFetchBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A15C300E1CD25C330074CB35;
+			remoteInfo = RNFetchBlob;
+		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
@@ -333,6 +383,8 @@
 		00E356EE1AD99517003FC87E /* instagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* instagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instagramTests.m; sourceTree = "<group>"; };
+		0536D1C408994DD092A7E287 /* libRNFetchBlob.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFetchBlob.a; sourceTree = "<group>"; };
+		0DF013C15A03487EB0ABE73B /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -343,22 +395,36 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = instagram/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = instagram/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		28BF3CCDC05E47B59FAC7CE3 /* libRNCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCamera.a; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* instagram-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* instagram-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instagram-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		360BBED821899F7B00A54127 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		360BBEDD21899F7B00A54127 /* FaceDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceDetector.framework; sourceTree = "<group>"; };
+		360BBEDF21899F7B00A54127 /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
+		360BBEE021899F7B00A54127 /* BCLjoy_100.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLjoy_100.emd; sourceTree = "<group>"; };
+		360BBEE121899F7B00A54127 /* PFFprec_702.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PFFprec_702.emd; sourceTree = "<group>"; };
+		360BBEE221899F7B00A54127 /* MFTprec_202.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = MFTprec_202.emd; sourceTree = "<group>"; };
+		360BBEE321899F7B00A54127 /* LMprec_600.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = LMprec_600.emd; sourceTree = "<group>"; };
+		360BBEE421899F7B00A54127 /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
+		360BBEE921899F7B00A54127 /* GoogleMVDataOutput.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMVDataOutput.framework; sourceTree = "<group>"; };
+		360BBEEE21899F7B00A54127 /* GoogleMobileVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileVision.framework; sourceTree = "<group>"; };
+		360BBEF321899F7B00A54127 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		360BBEF721899F7B00A54127 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		360BBEFC21899F7B00A54127 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		360BBF1021899FB500A54127 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		362B16252189B2BF000E9937 /* RCTCameraRoll.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTCameraRoll.xcodeproj; path = "../node_modules/react-native/Libraries/CameraRoll/RCTCameraRoll.xcodeproj"; sourceTree = "<group>"; };
+		3B896034BF774C8C9707E9EA /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		802596E19A8E431A83428F7A /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		96D4C3885F2E46F5A086A003 /* RNCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RNCamera.xcodeproj"; sourceTree = "<group>"; };
+		A04F82B5569347F9987C3940 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		C2AAA4DE15134ADA85621BC4 /* Billabong.ttf */ = {isa = PBXFileReference; name = "Billabong.ttf"; path = "../src/assets/fonts/Billabong.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F698B3E5527A440CB3CC375F /* light.ttf */ = {isa = PBXFileReference; name = "light.ttf"; path = "../src/assets/fonts/light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CDE521801BC644AC8A80158F /* regular.ttf */ = {isa = PBXFileReference; name = "regular.ttf"; path = "../src/assets/fonts/regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0A017B4FDBEB4F83AAB7814A /* semibold.ttf */ = {isa = PBXFileReference; name = "semibold.ttf"; path = "../src/assets/fonts/semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0DF013C15A03487EB0ABE73B /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		A04F82B5569347F9987C3940 /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		802596E19A8E431A83428F7A /* Montserrat-Light.ttf */ = {isa = PBXFileReference; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D0A6C61CE88540F88B8B1C1D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3B896034BF774C8C9707E9EA /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2AAA4DE15134ADA85621BC4 /* Billabong.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Billabong.ttf; path = ../src/assets/fonts/Billabong.ttf; sourceTree = "<group>"; };
+		D0A6C61CE88540F88B8B1C1D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		E48B3931EA394E459D5CAFF7 /* RNFetchBlob.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFetchBlob.xcodeproj; path = "../node_modules/rn-fetch-blob/ios/RNFetchBlob.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -374,19 +440,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362B162B2189B2DC000E9937 /* libRCTCameraRoll.a in Frameworks */,
+				360BBF1121899FB500A54127 /* AddressBook.framework in Frameworks */,
+				360BBF0F21899F7B00A54127 /* GoogleInterchangeUtilities.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
+				360BBF0D21899F7B00A54127 /* GoogleSymbolUtilities.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
+				360BBEFE21899F7B00A54127 /* GoogleUtilities.framework in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
+				360BBF0B21899F7B00A54127 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				360BBF0921899F7B00A54127 /* GoogleMobileVision.framework in Frameworks */,
+				360BBF0721899F7B00A54127 /* GoogleMVDataOutput.framework in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
+				360BBEFF21899F7B00A54127 /* FaceDetector.framework in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				D0E74CF099744A2585B7235A /* libBVLinearGradient.a in Frameworks */,
+				5DCD3D663902408390D8B76A /* libRNCamera.a in Frameworks */,
+				F413E845216D4946B347F12B /* libRNFetchBlob.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +617,254 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		360BBE9F21899DF300A54127 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				A04F82B5569347F9987C3940 /* libBVLinearGradient.a */,
+				28BF3CCDC05E47B59FAC7CE3 /* libRNCamera.a */,
+				0536D1C408994DD092A7E287 /* libRNFetchBlob.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		360BBEC521899DFE00A54127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				360BBECC21899DFF00A54127 /* libBVLinearGradient.a */,
+				360BBECE21899DFF00A54127 /* libBVLinearGradient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		360BBEC721899DFE00A54127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				360BBED121899DFF00A54127 /* libRNCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		360BBED221899F2C00A54127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBF1021899FB500A54127 /* AddressBook.framework */,
+				360BBED321899F7B00A54127 /* face-detection */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		360BBED321899F7B00A54127 /* face-detection */ = {
+			isa = PBXGroup;
+			children = (
+				360BBED421899F7B00A54127 /* GoogleUtilities-1.3.2 */,
+				360BBED921899F7B00A54127 /* GoogleMobileVision-1.1.0 */,
+				360BBEEF21899F7B00A54127 /* GoogleNetworkingUtilities-1.2.2 */,
+				360BBEF421899F7B00A54127 /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 */,
+				360BBEF821899F7B00A54127 /* GoogleInterchangeUtilities-1.2.2 */,
+			);
+			path = "face-detection";
+			sourceTree = "<group>";
+		};
+		360BBED421899F7B00A54127 /* GoogleUtilities-1.3.2 */ = {
+			isa = PBXGroup;
+			children = (
+				360BBED621899F7B00A54127 /* Frameworks */,
+			);
+			path = "GoogleUtilities-1.3.2";
+			sourceTree = "<group>";
+		};
+		360BBED621899F7B00A54127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBED721899F7B00A54127 /* frameworks */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		360BBED721899F7B00A54127 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBED821899F7B00A54127 /* GoogleUtilities.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		360BBED921899F7B00A54127 /* GoogleMobileVision-1.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEDA21899F7B00A54127 /* FaceDetector */,
+				360BBEE521899F7B00A54127 /* MVDataOutput */,
+				360BBEEA21899F7B00A54127 /* Detector */,
+			);
+			path = "GoogleMobileVision-1.1.0";
+			sourceTree = "<group>";
+		};
+		360BBEDA21899F7B00A54127 /* FaceDetector */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEDB21899F7B00A54127 /* Frameworks */,
+				360BBEDE21899F7B00A54127 /* Resources */,
+			);
+			path = FaceDetector;
+			sourceTree = "<group>";
+		};
+		360BBEDB21899F7B00A54127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEDC21899F7B00A54127 /* frameworks */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEDC21899F7B00A54127 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEDD21899F7B00A54127 /* FaceDetector.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEDE21899F7B00A54127 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEDF21899F7B00A54127 /* BCLrighteyeclosed_200.emd */,
+				360BBEE021899F7B00A54127 /* BCLjoy_100.emd */,
+				360BBEE121899F7B00A54127 /* PFFprec_702.emd */,
+				360BBEE221899F7B00A54127 /* MFTprec_202.emd */,
+				360BBEE321899F7B00A54127 /* LMprec_600.emd */,
+				360BBEE421899F7B00A54127 /* BCLlefteyeclosed_200.emd */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		360BBEE521899F7B00A54127 /* MVDataOutput */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEE721899F7B00A54127 /* Frameworks */,
+			);
+			path = MVDataOutput;
+			sourceTree = "<group>";
+		};
+		360BBEE721899F7B00A54127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEE821899F7B00A54127 /* frameworks */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEE821899F7B00A54127 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEE921899F7B00A54127 /* GoogleMVDataOutput.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEEA21899F7B00A54127 /* Detector */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEEC21899F7B00A54127 /* Frameworks */,
+			);
+			path = Detector;
+			sourceTree = "<group>";
+		};
+		360BBEEC21899F7B00A54127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEED21899F7B00A54127 /* frameworks */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEED21899F7B00A54127 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEEE21899F7B00A54127 /* GoogleMobileVision.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEEF21899F7B00A54127 /* GoogleNetworkingUtilities-1.2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEF121899F7B00A54127 /* Frameworks */,
+			);
+			path = "GoogleNetworkingUtilities-1.2.2";
+			sourceTree = "<group>";
+		};
+		360BBEF121899F7B00A54127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEF221899F7B00A54127 /* frameworks */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEF221899F7B00A54127 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEF321899F7B00A54127 /* GoogleNetworkingUtilities.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEF421899F7B00A54127 /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEF621899F7B00A54127 /* Frameworks */,
+			);
+			path = "dbffca986f6337f8-GoogleSymbolUtilities-1.1.1";
+			sourceTree = "<group>";
+		};
+		360BBEF621899F7B00A54127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEF721899F7B00A54127 /* GoogleSymbolUtilities.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEF821899F7B00A54127 /* GoogleInterchangeUtilities-1.2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEFA21899F7B00A54127 /* Frameworks */,
+			);
+			path = "GoogleInterchangeUtilities-1.2.2";
+			sourceTree = "<group>";
+		};
+		360BBEFA21899F7B00A54127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEFB21899F7B00A54127 /* frameworks */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		360BBEFB21899F7B00A54127 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360BBEFC21899F7B00A54127 /* GoogleInterchangeUtilities.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		362B16262189B2BF000E9937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				362B162A2189B2BF000E9937 /* libRCTCameraRoll.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363A112E21902E06005A34A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363A115B21902E06005A34A3 /* libRNFetchBlob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -547,6 +872,17 @@
 				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		75EB4F66F7534F6A97FD7C12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2AAA4DE15134ADA85621BC4 /* Billabong.ttf */,
+				802596E19A8E431A83428F7A /* Montserrat-Light.ttf */,
+				D0A6C61CE88540F88B8B1C1D /* Montserrat-Regular.ttf */,
+				3B896034BF774C8C9707E9EA /* Montserrat-SemiBold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -561,6 +897,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				362B16252189B2BF000E9937 /* RCTCameraRoll.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -574,6 +911,8 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				0DF013C15A03487EB0ABE73B /* BVLinearGradient.xcodeproj */,
+				96D4C3885F2E46F5A086A003 /* RNCamera.xcodeproj */,
+				E48B3931EA394E459D5CAFF7 /* RNFetchBlob.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -590,12 +929,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				360BBED221899F2C00A54127 /* Frameworks */,
 				13B07FAE1A68108700A75B9A /* instagram */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* instagramTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				75EB4F66F7534F6A97FD7C12 /* Resources */,
+				360BBE9F21899DF300A54127 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -621,21 +962,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		75EB4F66F7534F6A97FD7C12 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				C2AAA4DE15134ADA85621BC4 /* Billabong.ttf */,
-				F698B3E5527A440CB3CC375F /* light.ttf */,
-				CDE521801BC644AC8A80158F /* regular.ttf */,
-				0A017B4FDBEB4F83AAB7814A /* semibold.ttf */,
-				802596E19A8E431A83428F7A /* Montserrat-Light.ttf */,
-				D0A6C61CE88540F88B8B1C1D /* Montserrat-Regular.ttf */,
-				3B896034BF774C8C9707E9EA /* Montserrat-SemiBold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -723,7 +1049,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 4F66BY4PCB;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 4F66BY4PCB;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -749,6 +1079,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 360BBEC521899DFE00A54127 /* Products */;
+					ProjectRef = 0DF013C15A03487EB0ABE73B /* BVLinearGradient.xcodeproj */;
+				},
+				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
 				},
@@ -759,6 +1093,10 @@
 				{
 					ProductGroup = ADBDB9201DFEBF0600ED6528 /* Products */;
 					ProjectRef = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+				},
+				{
+					ProductGroup = 362B16262189B2BF000E9937 /* Products */;
+					ProjectRef = 362B16252189B2BF000E9937 /* RCTCameraRoll.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
@@ -795,6 +1133,14 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 360BBEC721899DFE00A54127 /* Products */;
+					ProjectRef = 96D4C3885F2E46F5A086A003 /* RNCamera.xcodeproj */;
+				},
+				{
+					ProductGroup = 363A112E21902E06005A34A3 /* Products */;
+					ProjectRef = E48B3931EA394E459D5CAFF7 /* RNFetchBlob.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -941,6 +1287,41 @@
 			remoteRef = 2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		360BBECC21899DFF00A54127 /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = 360BBECB21899DFF00A54127 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		360BBECE21899DFF00A54127 /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = 360BBECD21899DFF00A54127 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		360BBED121899DFF00A54127 /* libRNCamera.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCamera.a;
+			remoteRef = 360BBED021899DFF00A54127 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		362B162A2189B2BF000E9937 /* libRCTCameraRoll.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTCameraRoll.a;
+			remoteRef = 362B16292189B2BF000E9937 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		363A115B21902E06005A34A3 /* libRNFetchBlob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFetchBlob.a;
+			remoteRef = 363A115A21902E06005A34A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1084,10 +1465,13 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				EF0E346E2F12412783D4CAD5 /* Billabong.ttf in Resources */,
-				4DBFF41A8EE142869E85EC2C /* light.ttf in Resources */,
-				B7A132FF062149B9BFA08878 /* regular.ttf in Resources */,
-				598D2C68394D4589B77634D0 /* semibold.ttf in Resources */,
+				360BBF0021899F7B00A54127 /* BCLrighteyeclosed_200.emd in Resources */,
+				360BBF0521899F7B00A54127 /* BCLlefteyeclosed_200.emd in Resources */,
+				360BBF0221899F7B00A54127 /* PFFprec_702.emd in Resources */,
 				F003D726CFA64D6D86937C72 /* Montserrat-Light.ttf in Resources */,
+				360BBF0321899F7B00A54127 /* MFTprec_202.emd in Resources */,
+				360BBF0421899F7B00A54127 /* LMprec_600.emd in Resources */,
+				360BBF0121899F7B00A54127 /* BCLjoy_100.emd in Resources */,
 				BD6492CE00594CE38D4AF1A8 /* Montserrat-Regular.ttf in Resources */,
 				76D65C4A648349A382602BBC /* Montserrat-SemiBold.ttf in Resources */,
 			);
@@ -1208,13 +1592,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4F66BY4PCB;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/rn-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = instagramTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1222,14 +1619,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instagram.app/instagram";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Debug;
 		};
@@ -1238,9 +1627,22 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 4F66BY4PCB;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/rn-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = instagramTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1248,14 +1650,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instagram.app/instagram";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Release;
 		};
@@ -1265,6 +1659,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 4F66BY4PCB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/rn-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1272,13 +1683,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.instagram;
 				PRODUCT_NAME = instagram;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Debug;
 		};
@@ -1287,6 +1694,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4F66BY4PCB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/face-detection/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/rn-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1294,13 +1718,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.instagram;
 				PRODUCT_NAME = instagram;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Release;
 		};
@@ -1316,8 +1736,20 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/rn-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = "instagram-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1327,14 +1759,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Debug;
 		};
@@ -1350,8 +1774,20 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/rn-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = "instagram-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1361,14 +1797,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Release;
 		};
@@ -1383,8 +1811,20 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/rn-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = "instagram-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1394,14 +1834,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instagram-tvOS.app/instagram-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Debug;
 		};
@@ -1416,8 +1848,20 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/rn-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = "instagram-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1427,14 +1871,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instagram-tvOS.app/instagram-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-				);
 			};
 			name = Release;
 		};
