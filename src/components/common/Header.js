@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StatusBar, Text } from 'react-native';
 
-const Header = () => {
+const Header = ({testID}) => {
   const { viewStyle, logo } = styles;
 
   return (
-    <View>
+    <View testID={testID}>
         <StatusBar backgroundColor='#fff' barStyle='dark-content' />
         <View style={viewStyle}>
           <Text style={logo}>Instagram</Text>

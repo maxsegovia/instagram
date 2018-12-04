@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ScrollView, Text, RefreshControl } from 'react-native';
 import firebase from 'firebase';
-import Posts from './Posts';
+import { Posts } from './Posts';
 
 class Feed extends Component {
     constructor(props) {

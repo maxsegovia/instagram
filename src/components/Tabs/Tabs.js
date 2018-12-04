@@ -1,16 +1,18 @@
 import React from 'react';
 import { Image } from 'react-native';
-import { TabNavigator } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation';
 import { Feed } from './Feed';
+import { Churches } from './Churches';
 import { Post } from './Post';
 import { Search } from './Search';
 import { Profile } from './Profile';
 
-const Tabs = TabNavigator({
+let screens = {
     Feed: {
         screen: Feed,
         navigationOptions: {
             tabBarLabel: 'Inicio',
+            tabBarTestID: 'feedTab',
             barBackgroundColor: '#E1306C',
             tabBarIcon: ({ tintColor }) =>
                 <Image
@@ -23,6 +25,7 @@ const Tabs = TabNavigator({
         screen: Post,
         navigationOptions: {
             tabBarLabel: 'Publicar',
+            tabBarTestID: 'postTab',
             barBackgroundColor: '#E1306C',
             tabBarIcon: ({ tintColor }) =>
                 <Image
@@ -35,6 +38,7 @@ const Tabs = TabNavigator({
         screen: Search,
         navigationOptions: {
             tabBarLabel: 'Buscar',
+            tabBarTestID: 'searchTab',
             barBackgroundColor: '#E1306C',
             tabBarIcon: ({ tintColor }) =>
                 <Image
@@ -43,10 +47,14 @@ const Tabs = TabNavigator({
                 />
         },
     },
+}
+
+screens = Object.assign(screens, {
     Profile: {
         screen: Profile,
         navigationOptions: {
             tabBarLabel: 'Perfil',
+            tabBarTestID: 'profileTab',
             barBackgroundColor: '#E1306C',
             tabBarIcon: ({ tintColor }) =>
                 <Image
@@ -55,7 +63,9 @@ const Tabs = TabNavigator({
                 />
         },
     },
-},
+})
+
+const Tabs = createBottomTabNavigator(screens,
 {
     tabBarPosition: 'bottom',
     tabBarOptions: {

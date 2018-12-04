@@ -73,35 +73,22 @@ class Post extends Component {
 
         const userId = firebase.auth().currentUser !== null ? firebase.auth().currentUser.uid : null;
         const path = this.state.photo;
-        const sessionId = new Date().getTime();
-        const imageRef = firebase.storage().ref().child('Images/uploaded/'+userId+'/posts/'+ sessionId + '.jpg');
 
         let mime = 'image/jpg';
-        let uploadBlob = null;
 
         fs.readFile(path, 'base64')
-        .then((data) => {
-            return Blob.build(data, { type: `${mime};BASE64` });
-        })
-        .then((blob) => {
-            uploadBlob = blob;
-            return imageRef.put(blob, { contentType: mime });
-        })
-        .then(() => {
-            uploadBlob.close();
-            return imageRef.getDownloadURL();
-        })
-        .then((url) => {
+        .then(data => {
+            console.log(data);
             firebase.database().ref(`posts/${firebase.auth().currentUser.uid}`).push({
                 title: this.state.text,
-                image: url,
+                image: `data:${mime};base64,${data}`,
                 userId,
                 createdAt: Date.now(),
             });
-            this.setState({ loading: false, showModal: false, text: '', photo: null });
-            this.swipeUpDownRef.showMini();
         });
 
+        this.setState({ loading: false, showModal: false, text: '', photo: null });
+        this.swipeUpDownRef.showMini();
         this.props.navigation.navigate('Feed');
     }
 
@@ -111,8 +98,10 @@ class Post extends Component {
             <View style={{ flexDirection: 'row', justifyContent: 'space-around', alignItems: 'flex-start' }}>
                 <TouchableOpacity onPress={() => this.swipeUpDownRef.showFull()} style={{ position: 'absolute', top: -55, left: 10 }}>
                     <Image
+                        testID={"galleryButton"}
                         style={{ width: 40, height: 40, tintColor: 'white' }}
                         source={require('../../../assets/images/icons/feed/picture-min.png')}
+                        onPress={() => this.swipeUpDownRef.showFull()}
                     />
                 </TouchableOpacity>
                 <TouchableOpacity style={capture} onPress={this.takePicture.bind(this)} >
@@ -145,8 +134,10 @@ class Post extends Component {
                                     onPress={() => this.setPhoto(p.node.image.uri)}
                                 >
                                     <Image
+                                        testID={"imageButton" + i}
                                         style={{ width: width/3.2, height: width/3.2 }}
                                         source={{ uri: p.node.image.uri }}
+                                        onPress={() => this.setPhoto(p.node.image.uri)}
                                     />
                                 </TouchableHighlight>
                             );
@@ -177,7 +168,7 @@ class Post extends Component {
                     </TouchableOpacity>
                     <Text style={modalTitle}>Publicación</Text>
                     <TouchableOpacity onPress={() => {this.post()}}>
-                        <Text style={postButton}>Compartir</Text>
+                        <Text testID={"postButton"} onPress={() => {this.post()}} style={postButton}>Compartir</Text>
                     </TouchableOpacity>
                 </View>
                 <View style={previewPost}>
@@ -185,7 +176,7 @@ class Post extends Component {
                         style={{ width: 100, height: 100, marginRight: 10 }}
                         source={{ uri: this.state.photo }}
                     />
-                    <Input value={this.state.text} placeholder="Escribe algo.." autoCorrect={false} autoCapitalize='sentences' color='black' placeholderTextColor={'grey'}
+                    <Input testID={"postInput"} value={this.state.text} placeholder="Escribe algo.." autoCorrect={false} autoCapitalize='sentences' color='black' placeholderTextColor={'grey'}
                     onChangeText={this.onTextChange.bind(this)} />
                 </View>
                 {this.renderLoading()}

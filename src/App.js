@@ -39,17 +39,17 @@ class App extends Component {
         switch(this.state.logged) {
             case true:
                 return (
-                    <Navigation />
+                    <Navigation testID="navigation" />
                 );
                 break;
             case false:
                 return (
-                    <Login />
+                    <Login testID="form" />
                 );
                 break;
             default:
                 return (
-                    <View style={{ marginTop: '50%' }}>
+                    <View testID="spinner" style={{ marginTop: '50%' }}>
                         <Spinner />
                     </View>
                 );
@@ -60,7 +60,7 @@ class App extends Component {
     render() {
         return (
             <View>
-                <Header />
+                <Header testID={"header"}/>
                 {this.renderContent()}
             </View>
         );

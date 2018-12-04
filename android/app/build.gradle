@@ -98,7 +98,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.instagram"
+        applicationId "com.gadr"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-image-picker')
     compile project(':rn-fetch-blob')
     compile project(':react-native-camera')
     compile project(':react-native-linear-gradient')

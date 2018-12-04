@@ -13,25 +13,44 @@ class Posts extends Component {
             image: this.props.post.image,
             createdAt: this.props.post.createdAt,
             username: '',
+            profilePicture: "null",
         };
     }
 
     componentWillMount() {
         //get username
         firebase.database().ref('users/' + this.state.userId).on('value', snapshot =>
-            this.setState({ username: snapshot.val().username })
+            this.setState({
+                username: snapshot.val().username,
+                profilePicture: snapshot.val().profilePicture,
+             })
+        );
+    }
+
+    renderProfilePicture() {
+        const { profilePic } = styles;
+        if (this.state.profilePicture !== "null") {
+            return(
+                <Image
+                    style={profilePic}
+                    source={{ uri: this.state.profilePicture }}
+                />
+            );
+        }
+        return(
+            <Image
+                style={profilePic}
+                source={require('../../../assets/images/icons/profile/profilePic.png')}
+            />
         );
     }
 
     render() {
-        const { container, postHeader, profilePic, username, image, date, title, buttons, icon } = styles;
+        const { container, postHeader, username, image, date, title, buttons, icon } = styles;
         return(
             <View style={container}>
                 <View style={postHeader}>
-                    <Image
-                        style={profilePic}
-                        source={require('../../../assets/images/icons/profile/profilePic.png')}
-                    />
+                    {this.renderProfilePicture()}
                     <Text style={username} onPress={() => this.props.navigation.navigate('Profile')}>{this.state.username}</Text>
                 </View>
                 <Image
@@ -122,4 +141,4 @@ const styles = {
     },
 }
 
-export default Posts;
+export { Posts };
