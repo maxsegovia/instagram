@@ -1,0 +1,12 @@
+.grow {
+    flex-grow: 1;
+}
+
+.nav-title {
+    color: grey !important;
+}
+
+.logo {
+    width: 8rem;
+    margin-top: 0.5rem;
+}
